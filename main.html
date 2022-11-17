@@ -8,40 +8,40 @@
 
 <body>
 
-<form method="post">
+<form method="post" action="abc@gmail.com">
 
 	<label for="name">Name
-    <input type="text" id="name" value="Kumar sharad">
+    <input type="text" id="name" value="Kumar sharad" required>
     </label><br><br>
  
     <label for="mail">Email
-    <input type="text" id="mail" value="Ksharad34@gmail.com">
+    <input type="text" id="mail" value="Ksharad34@gmail.com" required>
     </label><br><br>
 
     <label for="gender">Gender
-    <input type="radio" id="gender" value="">Male
-    <input type="radio" id="gender" name="gender">Female
-    <input type="radio" id="gender" name="gender">Other
+    <input type="radio" id="gender" value="male" name="gender" >Male
+    <input type="radio" id="gender" value="Female" name="gender" >Female
+    <input type="radio" id="gender" value="Other" name="gender" >Other
     </label><br><br>
 
     <label for="cars">Car Brands
-    <select>
+    <select id="cars">
         <option value="bmw" id="cars">BMW</option>
         <option value="audi" id="cars">Audi</option>
-        <option value="mercedez" id="cars">mercedez</option>
+        <option value="mercedez" id="cars">Mercedez</option>
     </select>
     </label><br><br>
 
     <label for="age">Age
-		<input type="text" id="age" name="Age">
+		<input type="text" id="age" value="27" required>
     </label><br><br>
 	 
 	<label for="dob">DOB
-		<input type="date" id="dob" name="birthday">
+		<input type="date" id="dob" value="07-02-1995" required>
     </label><br><br>
 
 	<label for="password">Password
-        <input type="password" id="password" name="pwd">
+        <input type="password" id="password" value="sharad@123" required>
     </label><br><br>
 
 		<input type="submit" value="Submit">
